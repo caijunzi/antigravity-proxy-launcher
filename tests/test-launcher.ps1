@@ -112,7 +112,7 @@ Write-Host "PASS [dead PAC fast fail]: $($sw.ElapsedMilliseconds) ms"
 # 3. Release packaging + Chinese/space path extraction check
 & (Join-Path $repoRoot "scripts\build-release.ps1")
 $pkgName = "Antigravity通用代理启动器-绿色版"
-$zipPath = Join-Path $repoRoot "dist\$pkgName.zip"
+$zipPath = Join-Path $repoRoot "dist\Antigravity-Proxy-Launcher-Portable.zip"
 $testDir = Join-Path $env:TEMP "Repo_测试 空格"
 if (Test-Path -LiteralPath $testDir) { Remove-Item -LiteralPath $testDir -Recurse -Force }
 Expand-Archive -LiteralPath $zipPath -DestinationPath $testDir -Force

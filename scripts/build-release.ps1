@@ -4,7 +4,7 @@ $launcherSrc = Join-Path $repoRoot "launcher"
 $distDir = Join-Path $repoRoot "dist"
 $pkgName = "Antigravity通用代理启动器-绿色版"
 $stageDir = Join-Path $distDir $pkgName
-$zipPath = Join-Path $distDir "$pkgName.zip"
+$zipPath = Join-Path $distDir "Antigravity-Proxy-Launcher-Portable.zip"
 
 if (-not (Test-Path -LiteralPath (Join-Path $launcherSrc "core\launch.ps1"))) {
     throw "Missing launcher/core/launch.ps1"

@@ -62,7 +62,7 @@ flowchart TD
 
 ### 第一步：下载并解压
 
-* **普通用户推荐**：直接在本仓库右侧 **Releases** 下载 `Antigravity通用代理启动器-绿色版.zip`（或点击页面右上角绿色 `Code -> Download ZIP` 解压后进入 `launcher` 文件夹）。
+* **普通用户推荐**：直接在本仓库右侧 **[Releases](../../releases/latest)** 下载 `Antigravity-Proxy-Launcher-Portable.zip`（或点击页面右上角绿色 `Code -> Download ZIP` 解压后进入 `launcher` 文件夹）。解压后里面就是完整的中文操作目录 `Antigravity通用代理启动器-绿色版`。
 * 解压到任意位置均可（桌面、`D:\Tools\`、U盘、甚至含中文和空格的路径都支持）。
 
 > ⚠️ **Windows 安全提醒（必看）**：
